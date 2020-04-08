@@ -243,7 +243,7 @@ The example above shows that the stations with id: `9`, `10`, `11`, `12` are con
 
 ## c5_feature_geometry
 
-This table defines the geometry of features. We expect features to be of different geospatial types: e.g. polygons, points, lines. For example, `Kisumu County` may be defined as a polygon. Given that current Climsoft installations implementations only require points, we intend to additionally include `latitude` and `longitude` columns for compatibility with existing installations and not add any new software dependencies.
+This table defines the geometry of features. We expect features to be of different geospatial types: e.g. polygons, points, lines. For example, `Kisumu County` may be defined as a polygon. Given that previous Climsoft installations only require points, we intend to additionally include `latitude` and `longitude` columns for compatibility with existing software in order to not require any new dependencies.
 
 | `id` | `version_number` | `feature_id` | `geometry_type` | `shape` | `current` |
 | --- | --- | --- | --- | --- | --- |
